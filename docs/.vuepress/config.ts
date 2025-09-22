@@ -7,9 +7,9 @@ export default defineUserConfig({
   lang: "zh-CN",
   locales: {
     "/": {
-      title: "zhengWei's Blog",
+      title: "ZhengWei's Blog",
       lang: "zh-CN",
-      description: "zhengWei's Blog",
+      description: "ZhengWei's Blog",
     },
   },
 
@@ -27,8 +27,8 @@ export default defineUserConfig({
       pagination: 10,
     },
     footer: {
-      message: "",
-      copyright: "Copyright © 2024 weiGe66",
+      message:"Copyright © 2024-present weiGe66",
+      copyright:`<a target="_blank" href="https://beian.miit.gov.cn/">鄂ICP备2025146089号</a>` ,
     },
     // encrypt:{
     //   rules:{
