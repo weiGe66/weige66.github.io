@@ -34,6 +34,10 @@ tags:
 23. `top`: 显示系统资源使用情况。
 24. `apt-get`: 在 Debian 和 Ubuntu 中用于管理软件包的命令。
 25. `yum`: 在 Fedora 和 CentOS 中用于管理软件包的命令。
+26. lsof -i :5173 查看对应端口的进程
+27. kill 12345      *# 优雅终止*
+
+    kill -9 12345   *# 强制杀掉*
 
 
 ## vim命令
