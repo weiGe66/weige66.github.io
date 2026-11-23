@@ -58,6 +58,7 @@ export default defineUserConfig({
         languages: [
           "shell",
           "java",
+          "python",
           "bash",
           "typescript",
           "javascript",
