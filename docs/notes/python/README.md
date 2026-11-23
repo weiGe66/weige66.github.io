@@ -13,3 +13,5 @@ comments: false
 | [FastAPI 局部更新与严格校验](./FastAPI局部更新与严格校验.md) | 区分字段省略和显式置空，避免布尔值或字符串被误当作整数 |
 | [asyncio 超时与任务取消](./asyncio超时与任务取消.md) | 给整次异步操作设置时间预算，确保超时和取消后子任务能退出 |
 | [SQLAlchemy 事务与回滚](./SQLAlchemy事务与回滚.md) | 选择提交边界，理解为什么 flush 后仍能整笔回滚 |
+
+更多接口开发主题见 [FastAPI 专题](./fastapi/README.md)，包括依赖注入、应用生命周期、响应契约和文件上传。
