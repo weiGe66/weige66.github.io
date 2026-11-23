@@ -3,6 +3,11 @@ title: 构建时记录git信息并写入json文件中
 createTime: 2024/12/28 23:50:33
 permalink: /notes/js/构建时记录git信息并写入json文件中/
 ---
+
+下面的脚本写入的是供人阅读的文本。如果要把它用于浏览器版本检测，建议另外用 `JSON.stringify` 生成真正的版本清单，只包含提交 SHA 或构建编号、UTC 构建时间等必要字段。发布切换时同步更新清单，避免客户端看到与入口产物不一致的版本。
+
+清单的发布时间和缓存策略见 [静态资源发布与缓存](../../blog/前端工程/静态资源发布与缓存.md)。
+
 ```js
 const fs = require('fs')
 const path = require('path')

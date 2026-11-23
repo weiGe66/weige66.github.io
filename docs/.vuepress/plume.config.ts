@@ -20,7 +20,7 @@ export default defineThemeConfig({
       profile: {
         avatar: '/images/logo.png',
         name: "zhengWei's Blog",
-        // description: 'weiGe的个人博客',
+        description: '记录前端工程中的技术取舍、故障排查与验证过程。',
         circle: true,
         location: '武汉',
         // organization: '',

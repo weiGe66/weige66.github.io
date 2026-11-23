@@ -4,6 +4,10 @@ createTime: 2024/12/28 23:32:38
 permalink: /notes/js/axios的封装/
 ---
 
+下方是 Vue 2 项目中用拦截器集中处理请求的早期示例。接入并发页面时，需要按请求或操作维护加载状态，并让网络错误继续走拒绝分支。示例里的共享 `loading` 会被后一次请求覆盖，`checkStatus` 的异常分支也缺少结算，调用方可能一直等不到结果。
+
+搜索、筛选等场景还要决定哪次请求有权更新页面。可参考 [搜索框请求竞态](../../blog/前端工程/搜索框请求竞态.md) 的状态模型和乱序测试。
+
 ```javascript
 import axios from "axios";
 import qs from "qs"; //处理参数
