@@ -15,3 +15,5 @@ comments: false
 | [SQLAlchemy 事务与回滚](./SQLAlchemy事务与回滚.md) | 选择提交边界，理解为什么 flush 后仍能整笔回滚 |
 
 更多接口开发主题见 [FastAPI 专题](./fastapi/README.md)，包括依赖注入、应用生命周期、响应契约和文件上传。
+
+[AI Agent 专题](./agent/README.md) 用可离线运行的 Python 示例讲工具调用、会话状态、写操作确认和评测。
