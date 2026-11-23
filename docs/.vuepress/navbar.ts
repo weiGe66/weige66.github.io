@@ -9,7 +9,13 @@ export const zhNavbar = defineNavbarConfig([
   
   {
     text: '笔记',
-    items: [{ text: 'vue相关', link: '/notes/vue/README.md' },{ text: 'js相关', link: '/notes/js/README.md' },{ text: 'node相关', link: '/notes/node/README.md' },{ text: '网址导航', link: '/notes/websiteGuide.md' }]
+    items: [
+      { text: 'vue相关', link: '/notes/vue/README.md' },
+      { text: 'js相关', link: '/notes/js/README.md' },
+      { text: 'node相关', link: '/notes/node/README.md' },
+      { text: 'Python', link: '/notes/python/README.md' },
+      { text: '网址导航', link: '/notes/websiteGuide.md' },
+    ]
   }
 ])
 

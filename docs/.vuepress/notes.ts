@@ -20,6 +20,11 @@ export const zhNotes = defineNotesConfig({
       dir: 'node',
       link: '/node',
       sidebar: 'auto'
+    },
+    {
+      dir: 'python',
+      link: '/python',
+      sidebar: 'auto'
     }
   ],
 })

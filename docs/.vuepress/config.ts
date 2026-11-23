@@ -59,6 +59,7 @@ export default defineUserConfig({
           "shell",
           "java",
           "python",
+          "toml",
           "bash",
           "typescript",
           "javascript",
